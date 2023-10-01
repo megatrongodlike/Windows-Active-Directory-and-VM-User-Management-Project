@@ -28,6 +28,9 @@ Replace `yourdomain.local` with your preferred domain name and adjust the domain
 
 After promotion, configure Active Directory, including creating organizational units (OUs), adding users, and setting group policies according to your organization's requirements.
 
+![Configure Active Directory](https://github.com/megatrongodlike/Windows-Active-Directory-and-VM-User-Management-Project/assets/80381464/cbe993c9-552d-445a-99ba-3dff271aea57)
+
+
 ### Step 4: Add Users in Windows 10
 
 Now, let's add Windows 10 machines to the domain and create user accounts:
@@ -43,6 +46,9 @@ Now, let's add Windows 10 machines to the domain and create user accounts:
 5. In Active Directory Users and Computers (ADUC), create user accounts for Windows 10 users in specific OUs.
 
 6. On the Windows 10 machine, use the newly created user accounts to log in, and they will have access to resources based on group policies and permissions.
+
+   ![ADDED USER](https://github.com/megatrongodlike/Windows-Active-Directory-and-VM-User-Management-Project/assets/80381464/1a97eff0-4796-4d73-a31e-9942b1a08c28)
+
 
 Your Windows Server is now serving as an Active Directory domain controller, and Windows 10 machines are connected to the domain, allowing you to manage users and resources centrally.
 ```
